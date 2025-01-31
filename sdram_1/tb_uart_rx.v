@@ -35,14 +35,14 @@ task tx_bit(
 	for(i=0;i<10;i=i+1)begin
 		case(i)
 			0:		rs232_tx		<=		1'b0;
-			1:		rs232_tx		<=		data[0];
-			2:		rs232_tx		<=		data[1];
-			3:		rs232_tx		<=		data[2];
-			4:		rs232_tx		<=		data[3];
-			5:		rs232_tx		<=		data[4];
-			6:		rs232_tx		<=		data[5];
-			7:		rs232_tx		<=		data[6];
-			8:		rs232_tx		<=		data[7];
+			1:		rs232_tx		<=		data[7];
+			2:		rs232_tx		<=		data[6];
+			3:		rs232_tx		<=		data[5];
+			4:		rs232_tx		<=		data[4];
+			5:		rs232_tx		<=		data[3];
+			6:		rs232_tx		<=		data[2];
+			7:		rs232_tx		<=		data[1];
+			8:		rs232_tx		<=		data[0];
 			9:		rs232_tx		<=		1'b1;
 		endcase
 		#560;

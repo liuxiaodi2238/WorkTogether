@@ -14,11 +14,11 @@ module uart_rx(
 //=======================================================================================================/
 	//对照时序图，看需要什么内部变量。先写了reg，在写了上面的参数.最后在下面写到wire的时候在这里补充定义
 	//注意定义与格式，其中计数器需要定义它的位数
-`ifndef	SIM
-localparam		BAUD_END		=	5207			;
-`else
+//实际使用
+//localparam		BAUD_END		=	5207			;
+//仿真使用
 localparam		BAUD_END		=	56				;
-`endif
+
 localparam		BAUD_M			=	BAUD_END/2 - 1	;
 localparam		BIT_END			=	8				;
 	
@@ -56,7 +56,7 @@ if (rst_n == 1'b0)begin
 	rx_flag <= 1'b0;	end
 else if(rx_neg == 1'b1)begin 		//这里需要特别注意，仅仅rx_neg == 1'b1能否说明flag拉高？可以。让flag跳高，而不是刷新高，即使数据中刷新高也没有关系
 	rx_flag <= 1'b1;	end
-else if(bit_cnt == 'd0 && baud_cnt == BAUD_END)begin		//寻找flag拉底的条件。（其实这里应该在波形设计时就设计好）     这里后期做了修改
+else if((bit_cnt == 4'b0) && (baud_cnt == BAUD_END))begin		//寻找flag拉底的条件。（其实这里应该在波形设计时就设计好）     这里后期做了修改
 	rx_flag <= 1'b0;	end	
 else begin
 	rx_flag <= rx_flag;	end
@@ -91,7 +91,7 @@ always@(posedge clk or negedge rst_n)begin
 	if(rst_n == 1'b0)begin
 		rx_data <= 8'b0;	end
 	else if(bit_flag == 1'b1 && bit_cnt >= 4'd1)begin			//这里是key。
-		rx_data <= {rx_r2,rx_data[7:1]};	end
+		rx_data <= {rx_data[6:0],rx_r2};	end
 	else begin
 		rx_data <= rx_data;	end
 end
@@ -103,7 +103,7 @@ always@(posedge clk or negedge rst_n)begin
 	else if(bit_cnt == BIT_END && bit_flag == 1'b1)begin			//这里是key。
 		po_flag <= 1'b1;	end
 	else begin
-		po_flag <= po_flag;	end
+		po_flag <= 1'b0;	end
 end
 
 

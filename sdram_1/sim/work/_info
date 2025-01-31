@@ -9,39 +9,41 @@ z2
 cModel Technology
 dC:/Users/liudi/Desktop/coder/250103/task1
 vtb_uart_rx
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-r1
-!s85 0
-31
+!s110 1738341183
 !i10b 1
-!s100 d?bOnzPH7_FXORn1kW1mJ3
-IKQc3cI1baJzSk=nmN;95I0
+!s100 [6oSD9EoOJ7bdeCfSj:dT3
+ITLdVV@i^5WANP6e<f2cC71
+Z0 VDg1SIo80bB@j0V0VzS_@n1
 Z1 dC:/Users/liudi/Desktop/WorkTogether/sdram_1/sim
-w1738162920
+w1738332694
 8C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v
 FC:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v
 L0 5
 Z2 OL;L;10.4;61
-!s108 1738166439.355000
-!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v|
-!s90 -reportprogress|300|-work|work|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v|
-!i113 0
-Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-vuart_rx
-R0
 r1
 !s85 0
 31
+!s108 1738341183.877000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vuart_rx
+!s110 1738341184
 !i10b 1
-!s100 OZ95g:LU[<EXga[XGLNB[3
-I[M`]akdK66M[jkA]<<Taz1
+!s100 B6dWKm2zC[MU;VNVb1hSc2
+Ib4zZ?kF0oNYR=?3DSB`6N2
+R0
 R1
-w1738164951
+w1738341139
 8C:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v
 FC:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v
 L0 1
 R2
-!s108 1738164988.927000
+r1
+!s85 0
+31
+!s108 1738341183.989000
 !s107 C:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v|
 !i113 0
