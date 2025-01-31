@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/liudi/Desktop/coder/250103/task1
+vtb_uart_rx
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 d?bOnzPH7_FXORn1kW1mJ3
+IKQc3cI1baJzSk=nmN;95I0
+Z1 dC:/Users/liudi/Desktop/WorkTogether/sdram_1/sim
+w1738162920
+8C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v
+L0 5
+Z2 OL;L;10.4;61
+!s108 1738166439.355000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v|
+!s90 -reportprogress|300|-work|work|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vuart_rx
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 OZ95g:LU[<EXga[XGLNB[3
+I[M`]akdK66M[jkA]<<Taz1
+R1
+w1738164951
+8C:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v
+L0 1
+R2
+!s108 1738164988.927000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v|
+!i113 0
+R3

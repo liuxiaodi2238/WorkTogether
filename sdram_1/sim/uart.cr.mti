@@ -1,0 +1,15 @@
+C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_1/tb_uart_rx.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_uart_rx
+
+Top level modules:
+	tb_uart_rx
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_1/uart_rx.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module uart_rx
+
+Top level modules:
+	uart_rx
+
+} {} {}}

@@ -6,7 +6,7 @@ module uart_rx(
 		input 				rs232_rx	,
 		//others									//在写完系统和接口信号后，其他信号输出可以看时序图中还有什么信号
 		output reg [7:0] 	rx_data		,
-		output				po_flag
+		output reg			po_flag
 );													//注意代码的规范性
 
 //=======================================================================================================\
@@ -14,8 +14,13 @@ module uart_rx(
 //=======================================================================================================/
 	//对照时序图，看需要什么内部变量。先写了reg，在写了上面的参数.最后在下面写到wire的时候在这里补充定义
 	//注意定义与格式，其中计数器需要定义它的位数
+`ifndef	SIM
 localparam		BAUD_END		=	5207			;
-localparam		BAUD_M			=	BUAD_END/2 - 1	;
+`else
+localparam		BAUD_END		=	56				;
+`endif
+localparam		BAUD_M			=	BAUD_END/2 - 1	;
+localparam		BIT_END			=	8				;
 	
 reg							rx_r1					;
 reg							rx_r2					;
@@ -38,20 +43,20 @@ if (rst_n == 1'b0)begin
 	rx_r2 <= 1'b0;
 	rx_r3 <= 1'b0;end
 else begin
-	rx_r1 <= rx_data;
+	rx_r1 <= rs232_rx;
 	rx_r2 <= rx_r1;
 	rx_r3 <= rx_r2;end
 end
 
 assign rx_neg = (~rx_r2) & (rx_r3);
 
-	//写reg flag的跳变
+	//写rx flag的跳变
 always@(posedge clk or negedge rst_n)begin
 if (rst_n == 1'b0)begin
 	rx_flag <= 1'b0;	end
 else if(rx_neg == 1'b1)begin 		//这里需要特别注意，仅仅rx_neg == 1'b1能否说明flag拉高？可以。让flag跳高，而不是刷新高，即使数据中刷新高也没有关系
 	rx_flag <= 1'b1;	end
-else if(bit_cnt == 1'b0)begin		//寻找flag拉底的条件。（其实这里应该在波形设计时就设计好
+else if(bit_cnt == 'd0 && baud_cnt == BAUD_END)begin		//寻找flag拉底的条件。（其实这里应该在波形设计时就设计好）     这里后期做了修改
 	rx_flag <= 1'b0;	end	
 else begin
 	rx_flag <= rx_flag;	end
@@ -106,23 +111,20 @@ end
 always@(posedge clk or negedge rst_n)begin
 	if(rst_n == 1'b0)begin
 		baud_cnt <= 13'b0;	end
-	else if
-	测试
+	else if(baud_cnt == BAUD_END)begin
+		baud_cnt <= 13'b0;	end
+	else if(rx_flag == 1'b1)begin
+		baud_cnt <= baud_cnt + 1'b1;	end
+end
 
+endmodule
 	
 
 
 
 
 
+//在写完代码后检查代码逻辑，代码中的寄存器是否配置好,每一个波形的跳转是否符合波形图
+	
 
 
-
-
-
-
-
-
-
-
-endmodule
