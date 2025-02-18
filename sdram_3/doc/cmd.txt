@@ -1,0 +1,10 @@
+Cmd Truth Table		CS		RAS		CAS		WE
+NOP					1		0		0		0		片选不选中。（实验中使用这个）
+					0		1		1		1		片选选中，但其他信号均为低
+Precharge			0		0		1		0
+Auto Refresh		0		0		0		1
+Mode-Set			0		0		0		0
+
+Initialize Rigester
+A0-A11 BA0 BA01:010 0 110 000 0000
+A11-A0:0000_0011_0010

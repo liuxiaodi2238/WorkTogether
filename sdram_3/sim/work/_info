@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/liudi/Desktop/WorkTogether/sdram_2/sim
+vsdram_init
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 iHME2N=InIdVdn^a??T=P1
+IVFYNbA4A3_jBB@?QfChLd0
+Z1 dC:/Users/liudi/Desktop/WorkTogether/sdram_3/sim
+w1739880618
+8C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_init.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_init.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1739880669.096000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_init.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_init.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vsdram_model_plus
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q=9=k^KQZzYX]MAPNSL3D2
+IK_k@7=njB0KOQ5Ed4ceEU0
+R1
+w1737548790
+8C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_model_plus.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_model_plus.v
+L0 56
+R2
+!s108 1739880668.878000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_model_plus.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_model_plus.v|
+!i113 0
+R3
+vsdram_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 9;f`<:SAEB1zLo?nP4g7l1
+I^P5M0iMT2[^7NSYd5neCT2
+R1
+w1739873229
+8C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_top.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_top.v
+L0 1
+R2
+!s108 1739880669.185000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_top.v|
+!i113 0
+R3
+vtb_sdram_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 DlkieVVJ@QH[Mi[zC24SJ3
+IOBDh3lanSHO3i744o4K;J3
+R1
+w1739873279
+8C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_top_inst.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_top_inst.v
+L0 3
+R2
+!s108 1739880668.983000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_top_inst.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_top_inst.v|
+!i113 0
+R3

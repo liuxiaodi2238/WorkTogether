@@ -1,0 +1,29 @@
+C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_model_plus.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_model_plus.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_model_plus
+
+Top level modules:
+	sdram_model_plus
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_top_inst.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_3/sim/sdram_top_inst.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_sdram_top
+
+Top level modules:
+	tb_sdram_top
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_top.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_top
+
+Top level modules:
+	sdram_top
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_init.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_3/rtl/sdram_init.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_init
+
+Top level modules:
+	sdram_init
+
+} {} {}}
