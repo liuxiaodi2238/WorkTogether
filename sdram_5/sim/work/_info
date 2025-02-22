@@ -1,0 +1,124 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/liudi/Desktop/WorkTogether/sdram_4/sim
+vsdram_aref
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 `F4h=bEeO?P1KMnG=c_PK0
+IlD;50GN5LHjQ60S[h>iTS2
+Z1 dC:/Users/liudi/Desktop/WorkTogether/sdram_5/sim
+w1739966640
+8C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_aref.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_aref.v
+L0 1
+Z2 OL;L;10.4;61
+!s108 1740161988.240000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_aref.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_aref.v|
+!i113 0
+Z3 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vsdram_init
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 iHME2N=InIdVdn^a??T=P1
+IPT2bAcZ;QWP3I>zeL0K;B3
+R1
+w1739880618
+8C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_init.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_init.v
+L0 1
+R2
+!s108 1740161988.332000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_init.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_init.v|
+!i113 0
+R3
+vsdram_model_plus
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q=9=k^KQZzYX]MAPNSL3D2
+I43WIWECKUNbM3[ZQ:BaYj3
+R1
+w1737548790
+8C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/sdram_model_plus.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/sdram_model_plus.v
+L0 56
+R2
+!s108 1740161988.042000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/sdram_model_plus.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/sdram_model_plus.v|
+!i113 0
+R3
+vsdram_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 cL4RZLzl;0ThP9:R^=_PF2
+Iaec^S@GQgkVeNf=Y7:k[>1
+R1
+w1740155294
+8C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_top.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_top.v
+L0 1
+R2
+!s108 1740161988.423000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_top.v|
+!i113 0
+R3
+vsdram_write
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 @HIAk^ZC:Tf^lZSCFKGn02
+I^8KcW1iK[GC3GC99ONnDj0
+R1
+w1740161983
+8C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v
+L0 1
+R2
+!s108 1740161988.513000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v|
+!i113 0
+R3
+vtb_sdram_top
+R0
+r1
+!s85 0
+31
+!i10b 1
+!s100 R9dLnI^bD:>CWE9@P9c5e3
+ImP4DkeCW:07ZE7zlV^_la0
+R1
+w1740139844
+8C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/tb_sdram_top.v
+FC:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/tb_sdram_top.v
+L0 3
+R2
+!s108 1740161988.150000
+!s107 C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/tb_sdram_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/tb_sdram_top.v|
+!i113 0
+R3

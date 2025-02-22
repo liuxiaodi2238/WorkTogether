@@ -1,0 +1,91 @@
+C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v {2 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_write
+** Warning: C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v(216): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v(217): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_write.v(218): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	sdram_write
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_top.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_top
+
+Top level modules:
+	sdram_top
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/sim/sdram_model_plus.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/sim/sdram_model_plus.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_model_plus
+
+Top level modules:
+	sdram_model_plus
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_init.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_init.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_init
+
+Top level modules:
+	sdram_init
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/rtl/sdram_aref.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/rtl/sdram_aref.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_aref
+
+Top level modules:
+	sdram_aref
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/sim/tb_sdram_top.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/sim/tb_sdram_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_sdram_top
+
+Top level modules:
+	tb_sdram_top
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/rtl/sdram_write.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/rtl/sdram_write.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_write
+
+Top level modules:
+	sdram_write
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/rtl/sdram_top.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/rtl/sdram_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_top
+
+Top level modules:
+	sdram_top
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/sdram_model_plus.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/sdram_model_plus.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_model_plus
+
+Top level modules:
+	sdram_model_plus
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/rtl/sdram_init.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5_1/rtl/sdram_init.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_init
+
+Top level modules:
+	sdram_init
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_aref.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5/rtl/sdram_aref.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sdram_aref
+
+Top level modules:
+	sdram_aref
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/tb_sdram_top.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_5/sim/tb_sdram_top.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_sdram_top
+
+Top level modules:
+	tb_sdram_top
+
+} {} {}}
