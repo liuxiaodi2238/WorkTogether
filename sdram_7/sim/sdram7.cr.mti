@@ -1,0 +1,15 @@
+C:/Users/liudi/Desktop/WorkTogether/sdram_7/rtl/cmd_decode.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_7/rtl/cmd_decode.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cmd_decode
+
+Top level modules:
+	cmd_decode
+
+} {} {}} C:/Users/liudi/Desktop/WorkTogether/sdram_7/sim/tb_cmd_decode.v {1 {vlog -work work -vopt -stats=none C:/Users/liudi/Desktop/WorkTogether/sdram_7/sim/tb_cmd_decode.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module tb_cmd_decode
+
+Top level modules:
+	tb_cmd_decode
+
+} {} {}}
